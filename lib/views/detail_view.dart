@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class HitungView extends StatelessWidget {
-  HitungView({super.key});
+class DetailView extends StatelessWidget {
+  DetailView({super.key});
 
   final args = Get.arguments;
 
