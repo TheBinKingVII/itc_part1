@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:itc_part1/routes/route_names.dart';
 import 'package:itc_part1/routes/route_pages.dart';
-import 'package:itc_part1/views/home_view.dart';
 
 void main() {
   runApp(const MyWidget());

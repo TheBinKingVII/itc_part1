@@ -4,7 +4,7 @@ import 'package:itc_part1/controllers/input_controller.dart';
 
 class InputView extends StatelessWidget {
    InputView({super.key});
-  InputController controller = Get.put(InputController());
+  final InputController controller = Get.put(InputController());
 
   @override
   Widget build(BuildContext context) {

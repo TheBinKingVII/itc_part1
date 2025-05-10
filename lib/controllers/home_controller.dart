@@ -30,7 +30,6 @@ class HomeController extends GetxController {
           UserModel user = UserModel.fromJson(value);
           getUserData.add(user);
         });
-
       } else {
         Get.snackbar(
           "Error",
