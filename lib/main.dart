@@ -14,7 +14,6 @@ class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      home: HomeView(),
       getPages: RoutePages.pages,
       initialRoute: RouteNames.home,
     );
